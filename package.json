@@ -1,0 +1,33 @@
+{
+  "name": "devCShopify",
+  "version": "1.0.0",
+  "description": "devCShopify this is NodeJS and React package app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarikparkar/devCShopify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarikparkar/devCShopify/issues"
+  },
+  "homepage": "https://github.com/tarikparkar/devCShopify#readme",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.50",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.11.0",
+    "koa-session": "^5.12.3",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
